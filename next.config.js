@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['avatarfiles.alphacoders.com'],
+  }
 }
 
 module.exports = nextConfig
